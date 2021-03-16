@@ -9,8 +9,9 @@ int knight(int A, int B, int C, int D, int E, int F) {
     int curr_level = 0;
     int dx[] = {1, 2, 2, 1, -2, -1, -2, -1};
     int dy[] = {2, 1, -1, -2, -1, -2, 1, 2};
+    vector<pair<int, int>> next;
     while (!frontier.empty()) {
-        vector<pair<int, int>> next;
+        next.clear();
         for (auto f : frontier) {
             if (visited[f.first - 1][f.second - 1]) continue;
             visited[f.first - 1][f.second - 1] = true;
