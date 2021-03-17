@@ -15,5 +15,5 @@ int solve(int A) {
         p *= 2;
         ans += t;
     }
-    return ans % (1000000007);
+    return ans % 1000000007;
 }
