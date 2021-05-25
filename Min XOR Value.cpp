@@ -1,7 +1,6 @@
 // https://www.interviewbit.com/problems/min-xor-value/
 
 #include <bits/stdc++.h>
-
 using namespace std;
 
 int findMinXor(vector<int> &A) {
