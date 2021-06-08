@@ -4,7 +4,7 @@
 
 using namespace std;
 
-int atoi(const String A){
+int atoi(const string A){
     long counter = 0;
     int sign = 1;
     bool set = false;
